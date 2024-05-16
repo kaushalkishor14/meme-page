@@ -1,22 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
+import MemeComponent from './MemeComponent';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-gray-800 min-h-screen flex items-center justify-center">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <MemeComponent />
       </header>
     </div>
   );
